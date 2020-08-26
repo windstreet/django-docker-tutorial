@@ -9,7 +9,7 @@
 
 **01** - [Docker 简介](https://github.com/windstreet/django-docker-tutorial/blob/master/md/01.Docker简介.md)
 
-**02** - [Docker-Django本地部署](https://github.com/windstreet/django-docker-tutorial/blob/master/md/02.Docker-Django本地部署.md)
+**02** - [Docker-Django 本地部署](https://github.com/windstreet/django-docker-tutorial/blob/master/md/02.Docker-Django本地部署.md)
 
 **03** - [Docker-Django-MySQL 本地部署](https://github.com/windstreet/django-docker-tutorial/blob/master/md/03.Docker-Django-MySQL本地部署.md)
 
@@ -38,12 +38,10 @@ docker-compose up
 
 ```
 
-基于 `Django + Docker + MySQL + Nginx + Gunicorn` 的容器化项目就运行起来了。
+基于 `Django + Docker + MySQL + Nginx + Gunicorn` 的容器化项目就运行起来了。    
+你可以用浏览器访问地址 [`127.0.0.1:8000`](http://0.0.0.0:8000/) ，即可看到 Django 首页（小火箭起飞页面）。
 
-你可以用浏览器访问地址 `127.0.0.1:8000` ，即可看到 Django 首页（小火箭起飞页面）。
-
-**Enjoy！**
-
+**注意！**
 > 第一次启动容器时有可能会失败，原因是 db 容器未完全初始化造成的。遇到这种情况请尝试重启容器，问题就消失了。
 
 ---
